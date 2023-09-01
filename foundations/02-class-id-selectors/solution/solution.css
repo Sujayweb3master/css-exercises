@@ -1,5 +1,5 @@
 .odd {
-  background-color: rgb(255, 167, 167);
+  background-color: hsl(0, 100%, 83%);
   font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
@@ -8,7 +8,7 @@
 }
 
 #two {
-  color: #0000ff;
+  color: rgb(0, 0, 255);
   font-size: 36px;
 }
 
@@ -22,6 +22,6 @@
     duplicate code.
 */
 #four {
-  background-color: hsl(120, 100%, 75%);
+  background-color: rgb(128, 255, 128);
   font-weight: bold;
 }
