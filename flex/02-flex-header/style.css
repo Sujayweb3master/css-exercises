@@ -1,7 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
 }
+ 
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
+}
+
+.left-container {
+  display: flex;
+  /* width: 100px; */
+  padding-left: 20px;
+  gap: 1em;
+  flex: 1;
+}
+
+.right-container {
+  display: flex;
+  gap: 1em;
+  margin-right: 20px;
+  flex: 1;
+}
+
 
 .logo {
   font-size: 48px;
@@ -9,6 +40,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  height: 70px;
+  margin: 16px 0;
+  flex: initial;
 }
 
 ul {
