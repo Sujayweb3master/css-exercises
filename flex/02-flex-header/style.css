@@ -7,6 +7,7 @@
   background: papayawhip;
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
 }
  
 
@@ -48,6 +49,8 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
